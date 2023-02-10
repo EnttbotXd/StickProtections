@@ -1,0 +1,43 @@
+name: StickProtections
+version: 1.0
+author: Enttbot
+description: Proteger zonas.
+depend: Vault
+main: main
+permissions:
+  sp.admin
+  sp.config
+  sp.zones
+  sp.kernel
+  sp.owner
+commands:
+  tempzone:
+    description: Crear una zona temporal
+    usage: /tempzone <nombre> <duracion>
+  config:
+    description: Configurar el plugin
+    usage: /config <configuracion> <argumento>
+  tp:
+    description: Teleportarse a una zona
+    usage: /tp zone <nombre o id>
+  zone:
+    description: Administrar zonas
+    usage: /zone create <nombre>
+  sp:
+    description: Gestionar permisos de zonas
+    usage: /sp perms <permiso> <jugador>
+  zone aging:
+    description: Configurar la velocidad de envejecimiento de una zona
+    usage: /zone aging <speed of aging>
+  sell:
+    description: Vender una zona
+    usage: /zone sell <nombre>
+  buy:
+    description: Comprar una zona
+    usage: /zone buy
+  reload:
+    description: Recargar el plugin
+    usage: /reload
+  Vine:
+    description: Recargar Vine
+    usage: /Vine reload
